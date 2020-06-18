@@ -1,0 +1,30 @@
+.product {
+    margin: 20px;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    background-color: white;
+    color: black;
+    display: flex;  
+}
+.photo {
+    padding: 20px;
+    flex: 0 10%;
+}
+
+.description {
+    flex: 1 0 30%;
+
+}
+
+.price {
+    flex: 1 0 10%;
+
+}
+
+@media all and (max-width: 1024px) {
+    .product {
+        flex-direction: column;
+    }
+}
